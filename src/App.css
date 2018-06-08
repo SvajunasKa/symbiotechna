@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+table{
+  width: 80%;
+  border: 1px solid black;
+  margin: 100px auto;
+  border-collapse: collapse;
+}
+
+table td{
+  border: 1px solid black;
+}
