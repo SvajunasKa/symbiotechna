@@ -87,7 +87,6 @@ class Table extends React.Component {
         </table>
       </div>
     )
-
   }
 }
 
