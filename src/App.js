@@ -3,6 +3,7 @@ import axios from 'axios'
 
 import Spinner from './Components/Spinner/Spinner'
 import Table from './Components/Table/Table'
+import Header from './Components/Header/Header'
 import './App.css';
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header/>
         {this.state.ships.length === 0 ? (
          <Spinner/>
         ) :  (
