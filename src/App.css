@@ -1,10 +1,26 @@
 body{
   margin: 0;
   padding: 0;
-  background: gray;
 }
 .App {
   text-align: center;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: inline-block;
+}
+.btn{
+  margin: 20px;
+}
+.btn.left{
+  float: left;
+  margin-left: 0;
+}
+.btn.right{
+  margin-right: 0;
+  float: right;
 }
 
 

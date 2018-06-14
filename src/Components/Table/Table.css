@@ -1,12 +1,12 @@
 table{
-  border: 3px solid white;
+  border: 2px solid gray;
   border-collapse: collapse;
 }
 table td{
-  border: 1px solid white;
+  border: 1px solid gray;
 }
 th{
-  border-left: 1px solid white;
+  border-left: 1px solid gray;
   text-align: center;
   padding: 20px;
 }
